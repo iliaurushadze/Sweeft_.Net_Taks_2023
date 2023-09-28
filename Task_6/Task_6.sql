@@ -34,4 +34,4 @@ SELECT DISTINCT t.FirstName, t.LastName
 FROM Teacher t
 JOIN TeacherPupil tp ON t.TeacherID = tp.TeacherID
 JOIN Pupil p ON tp.PupilID = p.PupilID
-WHERE p.FirstName = 'George';
+WHERE p.FirstName = 'Giorgi';
